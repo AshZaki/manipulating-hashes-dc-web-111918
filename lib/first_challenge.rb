@@ -13,8 +13,8 @@ def first_challenge
     }
   }
 
- contacts.each do |attribute, value|
-   if 
+ contacts.delete_if 
+   
 
 
   #remember to return your newly altered contacts hash!

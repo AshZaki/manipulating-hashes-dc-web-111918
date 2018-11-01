@@ -13,8 +13,9 @@ def first_challenge
     }
   }
 
- contacts.each do |contribute, value|
-   if contribute == :favorite_icecream_flavors
+ contacts.each do |person, data|
+   data.each do |attribute, value|
+   if attribute == :favorite_icecream_flavors
      value.delete_if |flavor|
      flavor = "strawberry"
    end

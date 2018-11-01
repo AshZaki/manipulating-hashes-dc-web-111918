@@ -14,7 +14,7 @@ def first_challenge
   }
 
  contacts.delete_if do |contribute, value|
-   :favorite_icecream_flavors == "strawberry"
+   contribute == "strawberry"
   end
   #remember to return your newly altered contacts hash!
   contacts

@@ -13,8 +13,9 @@ def first_challenge
     }
   }
 
- contacts.delete_if do |contribute, value|
-   contribute == "strawberry"
+ contacts.each do |contribute, value|
+   if contribute == :favorite_icecream_flavors
+     value.delete_if |flaver|
   end
   #remember to return your newly altered contacts hash!
   contacts

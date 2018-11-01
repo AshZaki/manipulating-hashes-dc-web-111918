@@ -13,7 +13,8 @@ def first_challenge
     }
   }
 
- contacts.delete_if |contribute, value|
+ contacts.delete_if do |contribute, value|
+   contribute ==
    
 
 

@@ -1,4 +1,4 @@
-require "pry"
+
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -6,10 +6,10 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  new_groceries = []
-  new_groceries.push(groceries.values.flatten)
-  new_groceries
 
-  binding.pry 
+  groceries.values.flatten
+  
+
+ 
 
 end

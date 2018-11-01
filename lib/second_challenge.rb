@@ -7,7 +7,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
   new_groceries = []
-  new_groceries.push(groceries.values.join(", "))
+  new_groceries.push(groceries.values.join(" "))
   new_groceries
 
   binding.pry 

@@ -14,7 +14,7 @@ def first_challenge
   }
 
  contacts.delete_if do |contribute, value|
-   contribute ==
+   :favorite_icecream_flavors == 
    
 
 

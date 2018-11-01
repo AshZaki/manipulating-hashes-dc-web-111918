@@ -6,9 +6,10 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
-  groceries.values
-  groceries
+  new_groceries = []
+  groceries.values.join(", ")
+  new_groceries.push(groceries)
+  new_groceries
 
   binding.pry 
 
